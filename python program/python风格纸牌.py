@@ -1,7 +1,7 @@
-import collections
+import collections  # 这个模块实现了特定目标的容器，以提供Python标准内建容器 dict , list , set , 和 tuple 的替代选择。
 from random import choice
 
-Card = collections.namedtuple('Card', ['rank', 'suit'])
+Card = collections.namedtuple('Card', ['rank', 'suit'])  # 创建命名元组子类的工厂函数
 
 
 class FrenchDeck:
@@ -23,5 +23,10 @@ beer_card = Card('7', 'diamonds')
 print(beer_card)
 
 deck = FrenchDeck()
-print(deck[0])
 print(choice(deck))
+
+for card in deck:  # 由于__getitem_方法，这一摞纸牌变成可迭代的了
+    print(card)
+
+for card in reversed(deck):  # 也可以反向迭代
+    print(card)
