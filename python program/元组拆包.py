@@ -10,3 +10,6 @@ for passport in sorted(travelers_ids):  # 在迭代的过程中，passport变量
 
 for country, _ in travelers_ids:  # for循环可以分别提取元组里的元素，也叫作拆包（unpacking）。因为元组中第二个元素对我们没有什么用，所以它赋值给“_”占位符。
     print(country)
+
+latitude, longitude = lax_coordinates  # 平行赋值，最容易辨认的元组拆包形式
+print(latitude, longitude)
