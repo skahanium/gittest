@@ -12,10 +12,10 @@ from scipy import io
 a = np.mat('1, 2, 3; 4, 5, 6')
 b = np.array([[1, 2, 3], [4, 5, 6]])
 #%% 数据储存
-io.savemat('a.mat', {'matrix' : a})
-io.savemat('b.mat', {'array' : b})
+io.savemat('/Users/skahanium/编程训练/python计量/第一章 数据存取/a.mat', {'matrix' : a})
+io.savemat('/Users/skahanium/编程训练/python计量/第一章 数据存取/b.mat', {'array' : b})
 #%% 数据读取
-data1 = io.loadmat('a.mat')
-data1_1 = io.loadmat('a.mat')['matrix']
-data2 = io.loadmat('b.mat')
-data2_2 = io.loadmat('b.mat')['array']
+data1 = io.loadmat('/Users/skahanium/编程训练/python计量/第一章 数据存取/a.mat')
+data1_1 = io.loadmat('/Users/skahanium/编程训练/python计量/第一章 数据存取/a.mat')['matrix']
+data2 = io.loadmat('/Users/skahanium/编程训练/python计量/第一章 数据存取/b.mat')
+data2_2 = io.loadmat('/Users/skahanium/编程训练/python计量/第一章 数据存取/b.mat')['array']

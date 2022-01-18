@@ -11,8 +11,8 @@ import numpy as np
 a = np.mat('1, 2, 3; 4, 5, 6')
 b = np.array([[1, 2, 3], [4, 5, 6]])
 #%% 数据储存
-np.save('第一章/a.npy', a)
-np.save('第一章/b.npy', b)
+np.save('/Users/skahanium/编程训练/python计量/第一章 数据存取/a.npy', a)
+np.save('/Users/skahanium/编程训练/python计量/第一章 数据存取/b.npy', b)
 #%% 数据读取
-data_a = np.load('第一章/a.npy')
-data_b = np.load('第一章/b.npy')
+data_a = np.load('/Users/skahanium/编程训练/python计量/第一章 数据存取/a.npy')
+data_b = np.load('/Users/skahanium/编程训练/python计量/第一章 数据存取/b.npy')
