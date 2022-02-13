@@ -17,6 +17,7 @@ plt.plot(xs, normal)
 #%% 偏度
 
 # 先绘制两个正偏度与负偏度的分布看看形状
+
 xs2 = np.linspace(stats.lognorm.ppf(0.01, .7, loc=-.1), stats.lognorm.ppf(0.99, .7, loc=-.1), 1500)
 lognorm = stats.lognorm.pdf(xs2, .7)
 
