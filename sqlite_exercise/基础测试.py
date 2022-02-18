@@ -1,7 +1,7 @@
 import sqlite3
 
 # 获取与数据库的连接
-path = '成绩.db'
+path = 'grades.db'
 conn = sqlite3.connect(path)
 
 # 编写sql语句

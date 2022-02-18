@@ -1,7 +1,7 @@
 import sqlite3
 
 def insert(new_data: dict):
-    con = sqlite3.connect('成绩.db')
+    con = sqlite3.connect('grades.db')
     cur = con.cursor()
 
     sql = 'insert into 语文 (学号, 姓名, 分数, 排名)' \
@@ -23,7 +23,7 @@ def insert(new_data: dict):
 
 
 def insert_all(all_data: list):
-    con = sqlite3.connect('成绩.db')
+    con = sqlite3.connect('grades.db')
     cur = con.cursor()
 
     sql = 'insert into 语文 (学号, 姓名, 分数, 排名)' \

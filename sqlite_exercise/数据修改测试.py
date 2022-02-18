@@ -1,6 +1,7 @@
 import sqlite3
 
-path = '成绩.db'
+path = 'grades.db'
+
 
 def upd1(sid: int, inf: dict):
     con = sqlite3.connect(path)
@@ -37,4 +38,4 @@ def update_data(*inf):
         print('请按照规定输入信息')
 
 
-update_data('成龙', {'学号':21, '分数':72, '排名':2})
+update_data('成龙', {'学号': 21, '分数': 77, '排名': 2})

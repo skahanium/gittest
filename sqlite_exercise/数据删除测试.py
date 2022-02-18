@@ -1,6 +1,6 @@
 import sqlite3
 
-path = '成绩.db'
+path = 'grades.db'
 
 def del1(sid: int):
     con = sqlite3.connect(path)
