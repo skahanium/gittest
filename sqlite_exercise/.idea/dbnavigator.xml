@@ -32,10 +32,16 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="88eb2dfc-a55f-49c1-97b2-6b4c0b7fb228" object-ref="schemas/main/tables/语文" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="88eb2dfc-a55f-49c1-97b2-6b4c0b7fb228" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="88eb2dfc-a55f-49c1-97b2-6b4c0b7fb228" dataset="main.sqlite_sequence" active-filter-id="" />
+    <filter-actions connection-id="88eb2dfc-a55f-49c1-97b2-6b4c0b7fb228" dataset="main.语文" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -81,7 +87,7 @@
           <port value="" />
           <database value="" />
           <files>
-            <file path="C:\Users\skaha\Desktop\git\sqlite练习\成绩.db" schema="main" />
+            <file path="C:\Users\skaha\Desktop\git\sqlite_exercise\grades.db" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
