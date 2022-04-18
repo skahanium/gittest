@@ -1,4 +1,6 @@
-
+**/__pycache__
 .DS_Store
 python机器学习/.idea
 *.json
+**/.idea
+**/.vs
